@@ -6,9 +6,6 @@ import com.backendless.Backendless;
 import com.slu.se_project.PlanitApplication;
 import com.slu.se_project.R;
 
-/**
- * Created by Omer on 7/12/2016.
- */
 public class BackEndlessCore {
 
     private final static String TAG = BackEndlessCore.class.getName();

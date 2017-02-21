@@ -4,10 +4,11 @@ import android.app.Application;
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
-import android.os.AsyncTask;
 
 import com.slu.se_project.backend.BackEndlessCore;
 import com.slu.se_project.backend.ResourceManager;
+import com.slu.se_project.backend.SessionManager;
+import com.slu.se_project.navigation.NavigationActivity;
 import com.slu.se_project.navigation.NavigationController;
 
 /**
@@ -21,13 +22,13 @@ public class PlanitApplication extends Application{
 
 
     private static Context sharedContext;
-    private PlanitActivity currentActivity;
-    private PlanitActivity lastActivity;
+    private NavigationActivity currentActivity;
+    private NavigationActivity lastActivity;
 
     private NavigationController mNavigationController;
-    private ResourceManager mResourceManager;
 
-//    private LoginManager loginManager = null;
+    private ResourceManager mResourceManager;
+    private SessionManager mSessionManager;
 
 
     public static PlanitApplication getInstance() {
@@ -39,6 +40,8 @@ public class PlanitApplication extends Application{
         super.onCreate();
 
         mResourceManager = new ResourceManager(this);
+        mSessionManager  = new SessionManager(this);
+
         sInstance = this;
 
         sharedContext = this;
@@ -59,7 +62,7 @@ public class PlanitApplication extends Application{
         return mResourceManager;
     }
 
-    protected SessionManager getSessionManager(){return mSessionManager;}
+    public SessionManager getSessionManager(){return mSessionManager;}
 
     public NavigationController getNavigationController() {
         return mNavigationController;
@@ -77,14 +80,14 @@ public class PlanitApplication extends Application{
         return getSharedResources().getDrawable(id);
     }
 
-    public void setCurrentActivity(PlanitActivity activity) {
+    public void setCurrentActivity(NavigationActivity activity) {
         currentActivity = activity;
         if (activity != null) {
             lastActivity = activity;
         }
     }
 
-    public PlanitActivity getCurrentActivity() {
+    public NavigationActivity getCurrentActivity() {
         return currentActivity;
     }
 
