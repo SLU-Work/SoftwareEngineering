@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/color_touch_terminal_block"
+        android:layout_below="@+id/wires"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/temp_menu_icon" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/icon_profile_48px"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/icon_search_48px"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/icon_setting_48px"
+            android:title="Settings" />
+    </group>
+</menu>
