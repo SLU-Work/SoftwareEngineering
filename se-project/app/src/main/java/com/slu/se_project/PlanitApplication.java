@@ -51,12 +51,6 @@ public class PlanitApplication extends Application{
 
     }
 
-//    public LoginManager getLoginManager() {
-//        if(loginManager == null) {
-//            loginManager = new LoginManager(new LoginModel(this), NetworkKt.network(new SharedPrefsBase(this)));
-//        }
-//        return loginManager;
-//    }
 
     public ResourceManager getResourceManager(){
         return mResourceManager;
