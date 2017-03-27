@@ -2,6 +2,7 @@ package com.slu.se_project.login;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.widget.DrawerLayout;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -49,6 +50,7 @@ public class LoginActivity extends NavigationActivity {
 //        forgotPasswordTextView = (TextView)findViewById(R.id.login_forgot_password_link);
         createAccountButton = (Button)findViewById(R.id.register_button);
         signInButton = (Button)findViewById(R.id.login_button);
+        getNavigationDrawer().setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
     }
 
     @Override
