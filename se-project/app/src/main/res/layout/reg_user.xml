@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:windowSoftInputMode="stateVisible"
+    android:padding="20dp"
+    tools:context="com.slu.se_project.registration.reg_UserFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/userName_directive"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+
+        android:text="@string/userName_directive"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+    <TextView
+        android:id="@+id/userName_prompt"
+        android:layout_below="@+id/userName_directive"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+
+        android:text="@string/userName_prompt"
+        />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_below="@+id/userName_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:text="@string/username"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_below="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/edittext_bottom_line"
+        android:inputType="textPersonName"
+        android:ems="10"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:text="@string/email"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_below="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/edittext_bottom_line"
+        android:inputType="textPersonName"
+        android:ems="10"
+        />
+
+
+    <Button
+        android:id="@+id/continue_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+
+        android:text="@string/cont"
+        />
+
+</RelativeLayout>

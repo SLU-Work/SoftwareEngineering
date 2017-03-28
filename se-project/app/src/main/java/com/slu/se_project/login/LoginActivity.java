@@ -12,7 +12,7 @@ import android.widget.TextView;
 import com.slu.se_project.main.MainActivity;
 import com.slu.se_project.navigation.NavigationActivity;
 import com.slu.se_project.R;
-
+import com.slu.se_project.registration.reg_Activity;
 /**
  * Created by bharg on 2/6/2017.
  */
@@ -62,6 +62,13 @@ public class LoginActivity extends NavigationActivity {
                 openMainActivity();
             }
         });
+
+        createAccountButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openRegistration();
+            }
+        });
     }
 
     @Override
@@ -71,6 +78,11 @@ public class LoginActivity extends NavigationActivity {
 
     private void openMainActivity() {
         Intent intent = new Intent(this , MainActivity.class);
+        startActivity(intent);
+    }
+
+    private void openRegistration() {
+        Intent intent = new Intent(this, reg_Activity.class);
         startActivity(intent);
     }
 

@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowSoftInputMode="stateVisible"
+    android:padding="10dp"
+    tools:context="com.slu.se_project.registration.reg_PassFrag">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/pass_header"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:text="@string/pass_header"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+    <TextView
+        android:id="@+id/pass_directive"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/pass_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:text="@string/pass_directive"
+        />
+
+    <TextView
+        android:id="@+id/pass1"
+        android:layout_below="@+id/pass_directive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:text="@string/pass"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_below="@+id/pass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/edittext_bottom_line"
+        android:inputType="textPassword"
+        android:ems="10"
+        />
+
+    <TextView
+        android:id="@+id/pass2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:text="@string/pass2"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_below="@+id/pass2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/edittext_bottom_line"
+        android:inputType="textPassword"
+        android:ems="10"
+        />
+
+
+    <Button
+        android:id="@+id/done_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+
+        android:text="@string/done"
+        />
+
+
+</RelativeLayout>
