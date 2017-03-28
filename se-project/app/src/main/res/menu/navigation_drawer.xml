@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView
-        android:id="@+id/color_touch_terminal_block"
-        android:layout_below="@+id/wires"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/temp_menu_icon" />
+    android:layout_height="match_parent">
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_profile"
