@@ -22,7 +22,7 @@ public class NavigationController {
         mContext = context;
     }
 
-    public void showView(NavigationView view){
+    public void showView(NavigationScreens view){
         Intent intent = new Intent(mCurrentView.get(),view.get());
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         mCurrentView.get().startActivity(intent);
