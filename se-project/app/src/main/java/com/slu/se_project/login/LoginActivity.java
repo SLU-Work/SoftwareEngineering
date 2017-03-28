@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.slu.se_project.contacts.mListActivity;
 import com.slu.se_project.main.MainActivity;
 import com.slu.se_project.navigation.NavigationActivity;
 import com.slu.se_project.R;
@@ -77,7 +78,7 @@ public class LoginActivity extends NavigationActivity {
     }
 
     private void openMainActivity() {
-        Intent intent = new Intent(this , MainActivity.class);
+        Intent intent = new Intent(this , mListActivity.class);
         startActivity(intent);
     }
 

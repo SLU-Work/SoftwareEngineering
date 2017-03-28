@@ -44,5 +44,15 @@
     <string name="done">DONE</string>
     <string name="pass_warning">Passwords are either not valid or matching</string>
 
+    <!--List View -->
+    <string name="list_name">ListView Mgr</string>
+
+    //fragment_view
+    <string name="profile_header">Profile</string>
+    <string name="first_name">FIRST NAME</string>
+    <string name="last_name">LAST</string>
+    <string name="phone">PHONE NUMBER</string>
+    <string name="profile_button">EDIT</string>
+
 
 </resources>

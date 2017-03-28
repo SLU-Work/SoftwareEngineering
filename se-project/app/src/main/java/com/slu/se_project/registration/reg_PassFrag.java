@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 
 import com.slu.se_project.R;
+import com.slu.se_project.contacts.mListActivity;
 import com.slu.se_project.main.MainActivity;
 
 import java.util.regex.Pattern;
@@ -120,7 +121,7 @@ public class reg_PassFrag extends Fragment {
                     _activity._reg_contact.setPass(pass);
 
                     //CREATE CONTACT
-                    Intent intent = new Intent(_activity, MainActivity.class);
+                    Intent intent = new Intent(_activity, mListActivity.class);
                     startActivity(intent);
                 }
             }

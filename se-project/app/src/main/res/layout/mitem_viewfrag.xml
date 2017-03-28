@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.slu.se_project.contacts.mListActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/userName_directive"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:text="Profile"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+    <TextView
+        android:id="@+id/firstName_prompt"
+        android:layout_below="@+id/userName_directive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:text="@string/first_name"
+        />
+
+    <EditText
+        android:id="@+id/first_editText"
+        android:layout_below="@+id/firstName_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:background="@drawable/edittext_bottom_line"
+        android:inputType="textPersonName"
+        android:ems="10"
+        />
+    <TextView
+        android:id="@+id/lastName_prompt"
+        android:layout_below="@+id/first_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:text="@string/last_name"
+        />
+
+    <EditText
+        android:id="@+id/last_editText"
+        android:layout_below="@+id/lastName_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:background="@drawable/edittext_bottom_line"
+        android:inputType="textPersonName"
+        android:ems="10"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_below="@+id/last_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:text="@string/email"
+        />
+
+    <EditText
+        android:id="@+id/email_editText"
+        android:layout_below="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+
+        android:background="@drawable/edittext_bottom_line"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:text="@string/phone"
+        android:layout_below="@+id/email_editText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/phone_editText"
+        android:layout_below="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:background="@drawable/edittext_bottom_line"
+        android:inputType="phone"
+        android:ems="10"
+        />
+
+    <Button
+        android:id="@+id/edit_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/profile_button"
+        />
+
+    <Button
+        android:id="@+id/view_return_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="RETURN"
+        />
+</RelativeLayout>
