@@ -9,9 +9,10 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import com.slu.se_project.R;
+import com.slu.se_project.navigation.NavigationActivity;
 
 
-public class mListActivity extends AppCompatActivity {
+public class mListActivity extends NavigationActivity {
     MListViewFragment _mListViewFragment;
     MItemViewFragment _viewContactFragment;
     SQLiteDatabase _db;
@@ -20,7 +21,6 @@ public class mListActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mlist_activity);
 
 /*        Toolbar contactToolbar = (Toolbar)findViewById(R.id.mlist_toolbar);
         setSupportActionBar(contactToolbar);
@@ -48,6 +48,11 @@ public class mListActivity extends AppCompatActivity {
         fm.beginTransaction().add(R.id.activity_contact, _mListViewFragment).commit();
 
 
+    }
+
+    @Override
+    protected int getContentResourceId() {
+        return R.layout.mlist_activity;
     }
 
     public void switchFragment(String newFragment) {
