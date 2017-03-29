@@ -39,6 +39,11 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait"/>
 
+        <activity
+            android:name=".search.SearchActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+
 
     </application>
 
