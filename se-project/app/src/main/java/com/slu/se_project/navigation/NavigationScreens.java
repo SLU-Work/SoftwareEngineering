@@ -12,15 +12,8 @@ import com.slu.se_project.userProfile.UserProfileActivity;
  */
 
 public enum NavigationScreens {
-//    SPLASH_VIEW(SplashActivity.class),
     LOGIN_VIEW(LoginActivity.class),
-//    EULA_VIEW(EulaActivity.class),
     MAIN_VIEW(MainActivity.class),
-//    INSTALL_TSTAT_VIEW(InstallationActivity.class),
-//    ACCOUNT_VIEW(PersonalInfoActivity.class),
-//    EMAIL_PREFS_VIEW(EmailPreferencesActivity.class),
-//    FEEDBACK_VIEW(FeedbackActivity.class),
-//    DASHBOARD_VIEW(DashboardActivity.class);
     USER_PROFILE_VIEW(UserProfileActivity.class),
     SEARCH_VIEW(SearchActivity.class);
 
