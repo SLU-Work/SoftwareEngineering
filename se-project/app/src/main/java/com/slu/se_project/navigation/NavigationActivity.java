@@ -124,6 +124,10 @@ public abstract class NavigationActivity extends AppCompatActivity{
                         Log.d("NAVIGATION", "Search Option Selected");
                         mNavigationController.showView(NavigationScreens.SEARCH_VIEW);
                         break;
+                    case R.id.nav_settings:
+                        Log.d("NAVIGATION", "Settings Option Selected");
+                        mNavigationController.showView(NavigationScreens.SETTINGS_VIEW);
+                        break;
                 }
 
                 //Checking if the item is in checked state or not, if not make it in checked state

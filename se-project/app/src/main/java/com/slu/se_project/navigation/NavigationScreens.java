@@ -5,6 +5,7 @@ import android.app.Activity;
 import com.slu.se_project.login.LoginActivity;
 import com.slu.se_project.main.MainActivity;
 import com.slu.se_project.search.SearchActivity;
+import com.slu.se_project.settings.SettingsActivity;
 import com.slu.se_project.userProfile.UserProfileActivity;
 
 /**
@@ -15,7 +16,8 @@ public enum NavigationScreens {
     LOGIN_VIEW(LoginActivity.class),
     MAIN_VIEW(MainActivity.class),
     USER_PROFILE_VIEW(UserProfileActivity.class),
-    SEARCH_VIEW(SearchActivity.class);
+    SEARCH_VIEW(SearchActivity.class),
+    SETTINGS_VIEW(SettingsActivity.class);
 
     private Class<? extends Activity> mActivity;
 
