@@ -4,6 +4,10 @@
     android:layout_height="match_parent">
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_home_48px"
+            android:title="Home"/>
+        <item
             android:id="@+id/nav_profile"
             android:icon="@drawable/icon_profile_48px"
             android:title="Profile" />
