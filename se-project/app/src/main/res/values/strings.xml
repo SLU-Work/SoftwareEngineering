@@ -53,6 +53,8 @@
     <string name="last_name">LAST</string>
     <string name="phone">PHONE NUMBER</string>
     <string name="profile_button">EDIT</string>
+    <string name="login_prompt">Let\'s login and get started!</string>
+    <string name="welcome">Welcome to PlanIT!</string>
 
 
 </resources>

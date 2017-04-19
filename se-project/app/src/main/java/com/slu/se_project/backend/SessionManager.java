@@ -18,7 +18,8 @@ import java.util.Map;
 
 public class SessionManager {
 
-
+    private boolean login_valid;
+    private boolean reg_valid;
     public static final String TAG = SessionManager.class.getSimpleName();
 
     public static final String THROUGH_BACKENDLESS = "Backendless";
@@ -29,21 +30,37 @@ public class SessionManager {
         mCurrentUsers = null;
     }
 
-    public void loginWithBackendless(String email, String password){
+    public boolean loginWithBackendless(String email, String password){
         Backendless.UserService.login(email, password, new AsyncCallback<BackendlessUser>() {
 
             @Override
             public void handleResponse(BackendlessUser response) {
                  Backendless.UserService.setCurrentUser(response);
+                 login_valid = true;
             }
 
             @Override
             public void handleFault(BackendlessFault fault) {
-
-
+                login_valid = false;
             }
         },true);
+        return login_valid;
 
     }
 
+    public boolean regWithBackendless(BackendlessUser user) {
+        Backendless.UserService.register(user, new AsyncCallback<BackendlessUser>() {
+            @Override
+            public void handleResponse(BackendlessUser response) {
+                Backendless.UserService.setCurrentUser(response);
+                reg_valid = true;
+            }
+
+            @Override
+            public void handleFault(BackendlessFault fault) {
+                reg_valid = false;
+            }
+        });
+        return reg_valid;
+    }
 }

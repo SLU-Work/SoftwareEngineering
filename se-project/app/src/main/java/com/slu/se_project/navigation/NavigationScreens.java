@@ -2,7 +2,7 @@ package com.slu.se_project.navigation;
 
 import android.app.Activity;
 
-import com.slu.se_project.login.LoginActivity;
+import com.slu.se_project.login.reg_Activity;
 import com.slu.se_project.main.MainActivity;
 import com.slu.se_project.search.SearchActivity;
 import com.slu.se_project.settings.SettingsActivity;
@@ -13,7 +13,7 @@ import com.slu.se_project.userProfile.UserProfileActivity;
  */
 
 public enum NavigationScreens {
-    LOGIN_VIEW(LoginActivity.class),
+    LOGIN_VIEW(reg_Activity.class),
     MAIN_VIEW(MainActivity.class),
     USER_PROFILE_VIEW(UserProfileActivity.class),
     SEARCH_VIEW(SearchActivity.class),

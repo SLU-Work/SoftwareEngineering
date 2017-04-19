@@ -13,31 +13,28 @@
         android:theme="@style/AppTheme.NoActionBar">
 
         <activity
-            android:name=".login.LoginActivity"
-            android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity
             android:name=".main.MainActivity"
             android:screenOrientation="portrait"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
+
+        </activity>
 
         <activity
             android:name=".userProfile.UserProfileActivity"
             android:screenOrientation="portrait"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"/>
 
-        <activity
-            android:name=".registration.reg_Activity"
-            android:label="@string/reg_name"
+        <activity android:name=".login.reg_Activity"
             android:windowSoftInputMode="stateAlwaysVisible"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait"/>
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
 
         <activity
             android:name=".contacts.mListActivity"

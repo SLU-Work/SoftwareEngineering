@@ -6,6 +6,7 @@ import android.database.DatabaseUtils;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by Sean on 3/6/2017.
@@ -18,6 +19,7 @@ public class Contact {
     public String contact_name_last;
     public String email;
     public String phone;
+    public Map<String, Object> properties;
 
     public Contact(){
         super();
