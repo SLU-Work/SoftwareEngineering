@@ -80,7 +80,7 @@ public class reg_UserFrag extends Fragment {
 
                 if(!(TextUtils.isEmpty(userName)) && !(TextUtils.isEmpty(email))){
                     _activity._reg_contact.setUserName(userName, email);
-                    _activity.switchFrag("reg_Pass");
+                    _activity.viewFrag("reg_Pass");
                 }
             }
         });

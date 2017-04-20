@@ -98,7 +98,7 @@ public class reg_welcomeFrag extends Fragment {
 
                 if(!(TextUtils.isEmpty(Fname)) && !(TextUtils.isEmpty(Lname))){
                     _activity._reg_contact.setName(Fname,Lname);
-                    _activity.switchFrag("reg_User");
+                    _activity.viewFrag("reg_User");
                 }
             }
         });

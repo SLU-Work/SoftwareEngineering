@@ -14,5 +14,28 @@
     <color name="date_background">#666699</color>
     <color name="card_background">#e0e0eb</color>
 
+<!-- Navigation Package -->
+    <!--navigation_toolbar.xml-->
+    <!-- Blue-->
+    <color name="nav_toolbar">#0000FF</color>
+    <!-- navigation_drawer_header.xml-->
+    <color name="nav_drawer_header_bg">#0000FF</color>
+    <!-- White-->
+    <color name="nav_drawer_text">#FFFFFF</color>
+    <!--navigation_activity_core.xml-->
+    <color name="nav_view_bg">#FFFFFF</color>
+<!-- End Navigation Package -->
+
+<!-- Login Package -->
+    <!--reg_login-->
+    <!--Didn't have a color, but I think the default was white
+        Also, I implemented login_layout_bg in reg_activity.xml
+        but it might need to be done in each individualt fragment-->
+    <color name="login_layout_bg">#FFFFFF</color>
+    <!--Have not added text color to xml, but if you find a combination of colors
+        that necessitates a text change, that can be done here-->
+    <color name="login_text_color">#808080</color>
+<!-- End Login Package  -->
+
 
 </resources>

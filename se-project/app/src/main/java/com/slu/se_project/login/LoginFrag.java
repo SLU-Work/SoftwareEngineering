@@ -55,7 +55,7 @@ public class LoginFrag extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                 Bundle savedInstanceState) {
-        final View v = inflater.inflate(R.layout.activity_login, container, false);
+        final View v = inflater.inflate(R.layout.reg_login, container, false);
 
 //        appLogoImageView = (ImageView)findViewById(R.id.app_logo);
         usernameEditText = (EditText)v.findViewById(R.id.login_username);
@@ -95,7 +95,7 @@ public class LoginFrag extends Fragment {
         createAccountButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                _activity.switchFrag("welcome");
+                _activity.viewFrag("welcome");
             }
         });
 

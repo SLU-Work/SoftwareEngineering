@@ -3,6 +3,7 @@ package com.slu.se_project.login;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -87,10 +88,7 @@ public class reg_Activity extends NavigationActivity{
             _regPassFrag = new reg_PassFrag();
             _regPassFrag.setActivity(this);
         }
-
-        FragmentManager fm = getSupportFragmentManager();
-        fm.beginTransaction().add(R.id.initialactivity, _loginFrag).commit();
-
+      viewFrag("login");
     }
 
     @Override
@@ -98,22 +96,35 @@ public class reg_Activity extends NavigationActivity{
         return R.layout.reg_activity;
     }
 
-    public void switchFrag(String newFrag){
-        FragmentManager fm = getSupportFragmentManager();
+    public void viewFrag(String newFrag){
+        //FragmentManager fm = getSupportFragmentManager();
+        FragmentTransaction t = getSupportFragmentManager().beginTransaction();
+        switch(newFrag){
+            case "login" :
+                t.add(R.id.initialactivity, _loginFrag);
+                break;
+            case "welcome" :
+                t.replace(R.id.initialactivity, _reg_welcomeFrag);
+                break;
+            case "reg_User" :
+                t.replace(R.id.initialactivity, _regUserFrag);
+                break;
+            case "reg_Pass" :
+                t.replace(R.id.initialactivity, _regPassFrag);
+                break;
+        }
+        t.addToBackStack(null);
+        t.commit();
+    }
 
-        if(newFrag.equals("welcome")){
-            fm.beginTransaction().replace(R.id.initialactivity, _reg_welcomeFrag).commit();
-       //     fm.beginTransaction().remove(_loginFrag).commit();
+    @Override
+    public void onBackPressed(){
+        if(getSupportFragmentManager().getBackStackEntryCount() == 1){
+            finish();
+        }else{
+            getSupportFragmentManager().popBackStack();
         }
-        else if(newFrag.equals("reg_User")){
-            fm.beginTransaction().replace(R.id.initialactivity, _regUserFrag).commit();
-      //      fm.beginTransaction().remove(_reg_welcomeFrag).commit();
-        }
-        else if (newFrag.equals("reg_Pass")){
-            fm.beginTransaction().replace(R.id.initialactivity, _regPassFrag).commit();
-       //     fm.beginTransaction().remove(_regUserFrag).commit();
 
-        }
     }
 
     public boolean passIsValid(EditText editText){
@@ -142,7 +153,6 @@ public class reg_Activity extends NavigationActivity{
         else{
             flag = true;
         }
-
  */       return flag;
     }
 
