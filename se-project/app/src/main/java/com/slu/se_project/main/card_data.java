@@ -17,15 +17,12 @@ public class card_data {
     private Calendar date;
     private String label;
     private List<card_data> events;
+    private int events_size = 0;
 
 
-    public card_data(Calendar date, String label){
-        this.date = date;
-        this.label = label;
-        events = new ArrayList<>();
-    }
-    public card_data(String label){
-        this.label =label;
+    public card_data(int year, int month, int day){
+        this.date = Calendar.getInstance();
+        date.set(year,month,day);
         events = new ArrayList<>();
     }
 
@@ -37,6 +34,13 @@ public class card_data {
         date = Calendar.getInstance();
         date.set(year,month,day,hour,minute);
     }
+    public void setTime(int hour, int minute){
+        date.set(Calendar.HOUR, hour);
+        date.set(Calendar.MINUTE, minute);
+    }
+    public void setLabel(String label){
+        this.label = label;
+    }
 
     public String getTime(){
         return date.get(Calendar.HOUR)+":"+date.get(Calendar.MINUTE);
@@ -44,6 +48,13 @@ public class card_data {
 
     public String getMonthDay(){
         return date.getDisplayName(Calendar.MONTH,SHORT, Locale.US).toUpperCase()+ date.get(Calendar.DAY_OF_MONTH);
+    }
+    public String getMonth(){
+        return date.getDisplayName(Calendar.MONTH,SHORT, Locale.US).toUpperCase();
+    }
+    public int getDay(){
+        return date.get(Calendar.DAY_OF_MONTH);
+
     }
     public String getLabel(){
         return label;
@@ -55,12 +66,36 @@ public class card_data {
         return date;
     }
 
-    public void addEvent(card_data event){
+    public void addEvent(String label, int hour, int minute, int url){
+        card_data event = new card_data(date.get(Calendar.YEAR), date.get(Calendar.MONTH), date.get(Calendar.DAY_OF_MONTH));
+        event.setLabel(label);
+        event.setTime(hour, minute);
+        event.setImg(url);
         events.add(event);
+        events_size++;
         //add event to parent date, but de-initialize the child event's "events" array
-        if (events.size() > 1){
+        if (events_size == 1){
             event.events = null;
         }
     }
+    public List<card_data> getEvents(){
+        return events;
+    }
+
+    public card_data getEvent(int position){
+        if(events_size > position){
+            return events.get(position);
+        }else {
+            return null;
+        }
+    }
+    public boolean hasEvents(){
+        if(events_size >0){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
 
 }

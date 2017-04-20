@@ -40,6 +40,10 @@
         "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\layout\\reg_user.xml"
     },
     {
+        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\card_event.xml",
+        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\layout\\card_event.xml"
+    },
+    {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\Sean\\.android\\build-cache\\7fd37b12bcfd977bf4381d3131f4d1667875547c\\output\\res\\layout\\notification_template_media.xml"
     },
@@ -78,6 +82,10 @@
     {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mitem_viewfrag.xml",
         "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\layout\\mitem_viewfrag.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\card_with_events.xml",
+        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\layout\\card_with_events.xml"
     },
     {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
@@ -182,6 +190,10 @@
     {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\Sean\\.android\\build-cache\\7fd37b12bcfd977bf4381d3131f4d1667875547c\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\card_default.xml",
+        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\layout\\card_default.xml"
     },
     {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",

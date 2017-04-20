@@ -11,19 +11,19 @@
     <color name="GREEN">#00FF00</color>
     <color name="BLUE">#0000FF</color>
 
-    <color name="date_background">#666699</color>
+    <color name="date_background">#4a148c</color>
     <color name="card_background">#e0e0eb</color>
 
 <!-- Navigation Package -->
     <!--navigation_toolbar.xml-->
     <!-- Blue-->
-    <color name="nav_toolbar">#0000FF</color>
+    <color name="nav_toolbar">#000000</color>
     <!-- navigation_drawer_header.xml-->
     <color name="nav_drawer_header_bg">#0000FF</color>
     <!-- White-->
     <color name="nav_drawer_text">#FFFFFF</color>
     <!--navigation_activity_core.xml-->
-    <color name="nav_view_bg">#FFFFFF</color>
+    <color name="nav_view_bg">#f5f5f5</color>
 <!-- End Navigation Package -->
 
 <!-- Login Package -->

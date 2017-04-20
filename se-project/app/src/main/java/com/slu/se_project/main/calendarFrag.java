@@ -49,37 +49,20 @@ public class calendarFrag extends Fragment {
 
         List<card_data> data = new ArrayList<card_data>();
 
-        data.add(new card_data("Baseball Game" ));
-        data.get(0).setDate(2017,4,23,19,50);
-        data.get(0).setImg(R.drawable.baseball100);
+        data.add(new card_data(2017,4,23));
+        data.get(0).addEvent("Baseball Game", 19, 50, R.drawable.baseball100);
+        data.get(0).addEvent("Some Project that's going to crush me", 12, 50, R.drawable.default_icon);
+        data.get(0).addEvent("Pre-game at the bar", 17, 50, R.drawable.cheers100);
 
-        data.add(new card_data("Some Project that's going to crush me"));
-        data.get(1).setDate(2017,4,23,12,50);
+        data.add(new card_data(2017,4,25));
+        data.get(1).addEvent("Hiking", 14, 50, R.drawable.hiking100);
 
-        data.add(new card_data("Pre-game at the bar"));
-        data.get(2).setDate(2017,4,23,17,50);
-        data.get(2).setImg(R.drawable.cheers100);
+        data.add(new card_data(2017,4,26));
+        data.get(2).addEvent("Piiiiizzzzzaaaa", 17, 50, R.drawable.pizza100);
+        data.get(2).addEvent("Some Project that's going to crush me", 12, 50, R.drawable.default_icon);
+        data.get(2).addEvent("Hockey", 19, 50, R.drawable.hockey100);
 
-        data.add(new card_data("Hiking"));
-        data.get(3).setImg(R.drawable.hiking100);
-        data.get(3).setDate(2017,4,24,14,50);
-
-        data.add(new card_data("Piiiiizzzzzaaaa"));
-        data.get(4).setImg(R.drawable.pizza100);
-        data.get(4).setDate(2017,4,24,17,50);
-
-
-        data.add(new card_data("Some Project that's going to crush me"));
-        data.get(5).setDate(2017,4,24,12,50);
-
-        data.add(new card_data("Hockey"));
-        data.get(6).setImg(R.drawable.hockey100);
-        data.get(6).setDate(2017,4,24,19,50);
-
-        Collections.sort(data, new DateComparator());
-
-
-        RVAdapter adapter = new RVAdapter(data);
+        RVAdapter adapter = new RVAdapter(data, getContext());
         rv.setAdapter(adapter);
 
         return v;

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:1:1-57:12
+ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:1:1-61:12
 	package
 		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:2:5-33
 		INJECTED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-pro
 	android:name
 		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:5:22-76
 application
-ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:7:5-54:19
+ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:7:5-58:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\Sean\.android\build-cache\0833ad08cb1f2e08a56dba641f72001baa84b080\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Sean\.android\build-cache\7fd37b12bcfd977bf4381d3131f4d1667875547c\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Sean\.android\build-cache\b0021d2887d2d420ea83cf15e8008ad4330a67c4\output\AndroidManifest.xml:26:5-20
@@ -48,65 +48,65 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Sean\.android\b
 	android:name
 		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:8:9-42
 activity#com.slu.se_project.main.MainActivity
-ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:15:9-20:20
+ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:15:9-24:20
 	android:screenOrientation
 		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:17:13-49
 	android:configChanges
 		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:18:13-83
 	android:name
 		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:16:13-46
-activity#com.slu.se_project.userProfile.UserProfileActivity
-ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:22:9-25:85
-	android:screenOrientation
-		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:24:13-49
-	android:configChanges
-		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:25:13-83
-	android:name
-		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:23:13-60
-activity#com.slu.se_project.login.reg_Activity
-ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:27:9-37:20
-	android:screenOrientation
-		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:30:13-49
-	android:windowSoftInputMode
-		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:28:13-61
-	android:configChanges
-		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:29:13-59
-	android:name
-		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:27:19-53
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:31:13-35:29
+ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:32:17-69
+ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:32:25-66
+		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:34:17-77
+ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:34:27-74
+		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.slu.se_project.userProfile.UserProfileActivity
+ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:26:9-29:85
+	android:screenOrientation
+		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:28:13-49
+	android:configChanges
+		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:29:13-83
+	android:name
+		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:27:13-60
+activity#com.slu.se_project.login.reg_Activity
+ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:31:9-41:20
+	android:screenOrientation
+		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:34:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:32:13-61
+	android:configChanges
+		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:33:13-59
+	android:name
+		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:31:19-53
 activity#com.slu.se_project.contacts.mListActivity
-ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:39:9-42:85
+ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:43:9-46:85
 	android:screenOrientation
-		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:41:13-49
+		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:45:13-49
 	android:configChanges
-		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:42:13-83
+		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:46:13-83
 	android:name
-		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:40:13-51
+		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:44:13-51
 activity#com.slu.se_project.search.SearchActivity
-ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:44:9-47:85
+ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:48:9-51:85
 	android:screenOrientation
-		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:46:13-49
+		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:50:13-49
 	android:configChanges
-		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:47:13-83
+		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:51:13-83
 	android:name
-		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:45:13-50
+		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:49:13-50
 activity#com.slu.se_project.settings.SettingsActivity
-ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:49:9-52:85
+ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:53:9-56:85
 	android:screenOrientation
-		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:51:13-49
+		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:55:13-49
 	android:configChanges
-		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:52:13-83
+		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:56:13-83
 	android:name
-		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:50:13-54
+		ADDED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml:54:13-54
 uses-sdk
 INJECTED from C:\Users\Sean\AndroidStudioProjects\PlanIT\SoftwareEngineering\se-project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] C:\Users\Sean\.android\build-cache\0833ad08cb1f2e08a56dba641f72001baa84b080\output\AndroidManifest.xml:21:5-23:62

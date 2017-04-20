@@ -61,7 +61,7 @@ public class MainActivity extends NavigationActivity
 
              @Override
              protected int getContentResourceId() {
-                 return R.layout.activity_main;
+                 return R.layout.navigation_activity_core;
              }
 /*
     @Override
