@@ -53,20 +53,19 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.ViewHolder> {
     }
     @Override
     public void onBindViewHolder(ViewHolder ViewHolder, int i) {
-        Calendar date = data.get(i).date;
-        Calendar ldate = Calendar.getInstance();
+        String d = data.get(i).getMonthDay();
+        String t = data.get(i).getTime();
+        String ldate;
         if(i > 0){
-            ldate = data.get(i-1).date;
+            ldate = data.get(i-1).getMonthDay();
         }else{
-            ldate.set(Calendar.MONTH, FEBRUARY);
+            ldate = null;
         }
 
-        String d = date.getDisplayName(Calendar.MONTH,SHORT, Locale.US).toUpperCase()+ date.get(Calendar.DAY_OF_MONTH);
-        String t = date.get(Calendar.HOUR)+":"+date.get(Calendar.MINUTE);
 
-        if((data.get(i).imgUrl != 0)&&(d.equals(ldate.getDisplayName(Calendar.MONTH,SHORT,Locale.US).toUpperCase()+ldate.get(Calendar.DAY_OF_MONTH)))){
+        if((data.get(i).getImgUrl() != 0)&&(d.equals(ldate))){
                 ViewHolder.date.setVisibility(View.INVISIBLE);
-                ViewHolder.icon.setImageResource(data.get(i).imgUrl);
+                ViewHolder.icon.setImageResource(data.get(i).getImgUrl());
           //  ViewHolder.icon.setBackground(null);
      /*       ViewHolder.time.setLayoutParams(new ViewGroup.LayoutParams(
                     ViewGroup.LayoutParams.layout_alignParentLeft
@@ -74,7 +73,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.ViewHolder> {
        */ }else {
             ViewHolder.date.setText(d);
         }
-        ViewHolder.label.setText(data.get(i).label);
+        ViewHolder.label.setText(data.get(i).getLabel());
         ViewHolder.time.setText(t);
 
     }
