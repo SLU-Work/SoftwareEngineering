@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <item
+        android:id="@+id/search"
+        android:title="search"
+        android:icon="@drawable/icon_search_48px"
+        app:showAsAction="always"
+        android:orderInCategory="100" />
+    <item
+        android:id="@+id/overflow"
+        android:icon="@drawable/ic_action_more_vert"
+        app:showAsAction="always"
+        android:title="overflow"
+        android:orderInCategory="105" />
+
+</menu>

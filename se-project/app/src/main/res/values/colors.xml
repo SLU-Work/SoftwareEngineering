@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="spinner_black">#182825</color>
+
+    <color name="WHITE">#FFFFFF</color>
+    <color name="BLACK">#000000</color>
+    <color name="RED">#FF0000</color>
+    <color name="GREEN">#00FF00</color>
+    <color name="BLUE">#0000FF</color>
+    <color name="bg_std">#FAFAFA</color>
+
+    <color name="date_background">#4a148c</color>
+    <color name="card_background">#e0e0eb</color>
+
+<!-- Navigation Package -->
+    <!--navigation_toolbar.xml-->
+    <!-- Blue-->
+    <color name="nav_toolbar">#7953d2</color>
+    <!-- navigation_drawer_header.xml-->
+    <color name="nav_drawer_header_bg">#0000FF</color>
+    <!-- White-->
+    <color name="nav_drawer_text">#FFFFFF</color>
+    <!--navigation_activity_core.xml-->
+    <color name="nav_view_bg">#f5f5f5</color>
+    <color name="card_date_color">#FFFFFF</color>
+<!-- End Navigation Package -->
+
+<!-- Login Package -->
+    <!--reg_login-->
+    <!--Didn't have a color, but I think the default was white
+        Also, I implemented login_layout_bg in reg_activity.xml
+        but it might need to be done in each individualt fragment-->
+    <color name="login_layout_bg">#FFFFFF</color>
+    <!--Have not added text color to xml, but if you find a combination of colors
+        that necessitates a text change, that can be done here-->
+    <color name="login_text_color">#808080</color>
+<!-- End Login Package  -->
+
+
+</resources>

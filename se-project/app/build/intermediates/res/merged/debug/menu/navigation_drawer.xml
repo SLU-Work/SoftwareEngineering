@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <group android:id="@+id/main"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_plan"
+            android:icon="@drawable/icon_profile_48px"
+            android:focusable="true"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:title="My Plan" />
+        <item
+            android:id="@+id/my_places"
+            android:icon="@drawable/icon_profile_48px"
+            android:focusable="true"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:title="My Places" />
+        <item
+            android:id="@+id/explore"
+            android:icon="@drawable/icon_search_48px"
+            android:focusable="true"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:title="Explore" />
+    </group>
+    <group android:id="@+id/profiles"
+        android:checkableBehavior="single">
+    <item
+            android:id="@+id/user_profile"
+            android:icon="@drawable/icon_setting_48px"
+            android:focusable="true"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/user_contacts"
+            android:icon="@drawable/icon_setting_48px"
+            android:focusable="true"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:title="My Contacts" />
+    </group>
+</menu>

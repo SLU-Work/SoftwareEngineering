@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\menu\\profile_actions.xml",
+        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\menu\\profile_actions.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_toolbar.xml",
+        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\menu\\main_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation_drawer.xml",
+        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\menu\\navigation_drawer.xml"
+    }
+]

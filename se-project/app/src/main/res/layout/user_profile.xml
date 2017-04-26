@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/overflow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/bg_std"
+        android:src="@drawable/ic_action_more_vert"
+        android:contentDescription="@string/desc_overflow_button"
+        android:onClick="showPopup"/>
+
+
+
+    <ImageButton
+        android:id="@+id/profile_photo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/overflow"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/circle_icon"
+        android:padding="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile_default_photo"
+        />
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_photo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="NAME"/>
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/profile_name"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        />
+
+    <TextView
+        android:id="@+id/profile_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="314-555-6666"/>
+
+    <TextView
+        android:id="@+id/profile_fav_events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Hiking, Music, Art"/>
+
+    <ImageButton
+        android:id="@+id/profile_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_toLeftOf="@+id/profile_call"
+        android:background="@color/bg_std"
+        android:padding="20dp"
+        android:src="@drawable/ic_action_tags"
+        />
+    <ImageButton
+        android:id="@+id/profile_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true"
+        android:background="@color/bg_std"
+        android:padding="20dp"
+        android:src="@drawable/ic_action_phone_start"
+        />
+    <ImageButton
+        android:id="@+id/profile_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_toEndOf="@+id/profile_call"
+        android:background="@color/bg_std"
+        android:padding="20dp"
+        android:src="@drawable/ic_action_sms"
+
+        />
+
+
+</RelativeLayout>

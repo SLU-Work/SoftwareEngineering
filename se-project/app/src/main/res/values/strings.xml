@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">PlanIt</string>
+    <string name="app_version">v1</string>
+
+    <!--Backendless-->
+    <string name="backendless_ap_id">44DA631D-B837-D643-FFCD-342C10DA9A00</string>
+    <string name="backendless_scret_key">29FB2710-E273-4C8D-FF1B-D88DC5126700</string>
+
+    <!--Login -->
+    <string name="login_title">Login</string>
+    <string name="login_email_hint">E-mail</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+
+    <!--Navigation Menu-->
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!--Registration-->
+    <string name="reg_name">Registration</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="personal_button">Personal</string>
+    <string name="business_button">Business</string>
+    <string name="chooseAccountPrompt">Hey! Our mission is to help people, both businesses trying to entertain and all of us trying to find the coolest spots! Which are you?</string>
+    <string name="name_prompt">What\'s your name?</string>
+    <string name="message_accept">By tapping Sign Up and Accept, you agree to the Terms of Service and Privacy Policy.</string>
+    <string name="signUp">Sign Up and Accept</string>
+    <string name="fname">FIRST NAME</string>
+    <string name="lname">LAST NAME</string>
+    <string name="username">USERNAME</string>
+    <string name="email">EMAIL</string>
+
+    <string name="userName_prompt">Your username is how friends add you on PlanIT</string>
+    <string name="userName_directive">Pick a username</string>
+    <string name="cont">Continue</string>
+    <string name="motto">Explore Your Day. Your Week. Your World.</string>
+    <string name="pass_directive">Password must contain at least 8 characters including 1 number, an upper and lowercase letter</string>
+    <string name="pass">PASSWORD</string>
+    <string name="pass2">CONFIRM PASSWORD</string>
+    <string name="pass_header">Create Password</string>
+    <string name="done">DONE</string>
+    <string name="pass_warning">Passwords are either not valid or matching</string>
+
+    <!--List View -->
+    <string name="list_name">ListView Mgr</string>
+
+    //fragment_view
+    <string name="profile_header">Profile</string>
+    <string name="first_name">FIRST NAME</string>
+    <string name="last_name">LAST</string>
+    <string name="phone">PHONE NUMBER</string>
+    <string name="profile_button">EDIT</string>
+    <string name="login_prompt">Let\'s login and get started!</string>
+    <string name="welcome">Welcome to PlanIT!</string>
+    <string name="desc_overflow_button">User Profile settings</string>
+
+
+</resources>

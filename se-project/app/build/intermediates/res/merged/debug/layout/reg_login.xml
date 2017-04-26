@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowSoftInputMode="stateVisible"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/motto"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+
+        android:text="@string/motto"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+
+    <TextView
+        android:id="@+id/name_prompt"
+        android:layout_below="@+id/motto"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:text="@string/login_prompt"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_prompt"
+        android:layout_marginTop="20dp"
+        android:id="@+id/login_username"
+        android:hint="@string/login_email_hint"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_username"
+        android:layout_marginTop="20dp"
+        android:id="@+id/login_password"
+        android:hint="@string/login_password_hint"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"/>
+
+    <View
+        android:id="@+id/centerShim"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/login_password"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp"
+        android:layout_width="16dp"
+        android:layout_height="match_parent"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:layout_toRightOf="@id/centerShim"
+        android:layout_below="@id/login_password"
+        android:id="@+id/login_button"
+        android:text="@string/login_button"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/login_password"
+        android:layout_toLeftOf="@id/centerShim"
+        android:id="@+id/register_button"
+        android:text="@string/register_button"/>
+
+
+</RelativeLayout>
