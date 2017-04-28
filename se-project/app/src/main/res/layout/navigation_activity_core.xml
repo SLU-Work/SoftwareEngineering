@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- This LinearLayout represents the contents of the screen  -->
+    <!-- This CoordinatorLayout represents the contents of the screen  -->
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -37,7 +37,7 @@
             android:layout_margin="32dp"
             android:clickable="true"
             android:visibility="gone"
-            app:backgroundTint="@color/nav_toolbar"
+            app:backgroundTint="@color/nav_drawer_header_bg"
             app:elevation="6dp"
             />
     </android.support.design.widget.CoordinatorLayout>

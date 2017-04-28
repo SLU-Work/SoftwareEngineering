@@ -20,12 +20,6 @@ public class UserProfileActivity extends NavigationActivity {
     Contacts_Frag _contactsFrag;
     String frag;
 
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,6 +53,11 @@ public class UserProfileActivity extends NavigationActivity {
                 fm.beginTransaction().add(R.id.navigation_activity_container, _contactsFrag ).commit();
                 break;
         }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
     }
 
     @Override

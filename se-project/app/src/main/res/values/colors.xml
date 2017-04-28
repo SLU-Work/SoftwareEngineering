@@ -20,7 +20,7 @@
     <!-- Blue-->
     <color name="nav_toolbar">#7953d2</color>
     <!-- navigation_drawer_header.xml-->
-    <color name="nav_drawer_header_bg">#0000FF</color>
+    <color name="nav_drawer_header_bg">#4a148c</color>
     <!-- White-->
     <color name="nav_drawer_text">#FFFFFF</color>
     <!--navigation_activity_core.xml-->

@@ -26,10 +26,6 @@ public class Profile_Frag extends Fragment {
     }
 
 
-    public void onCreate(Bundle savedInstanceState){
-        super.onCreate(savedInstanceState);
-    }
-
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         final View v = inflater.inflate(R.layout.user_profile, container, false);
 

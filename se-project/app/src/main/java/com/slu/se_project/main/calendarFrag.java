@@ -64,7 +64,7 @@ public class calendarFrag extends Fragment {
         data.get(2).addEvent("Some Project that's going to crush me", 12, 50, R.drawable.default_icon);
         data.get(2).addEvent("Hockey", 19, 50, R.drawable.hockey100);
 
-        RVAdapter adapter = new RVAdapter(data, getContext());
+        RVAdapter adapter = new RVAdapter(data, getActivity());
         rv.setAdapter(adapter);
 
         return v;
