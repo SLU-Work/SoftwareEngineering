@@ -1,11 +1,15 @@
 package com.slu.se_project.navigation;
 
 import android.os.Bundle;
+import android.support.design.widget.BottomSheetBehavior;
+import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
@@ -32,20 +36,23 @@ public abstract class NavigationActivity extends AppCompatActivity{
     private DrawerLayout mNavigationDrawer;
     private ActionBarDrawerToggle mNavigationDrawerToggle;
     private NavigationView mNavigationView;
+    private FloatingActionButton fab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.navigation_activity_core);
 
-
-        mNavigationToolbar = (Toolbar)findViewById(R.id.navigation_toolbar);
+        CollapsingToolbarLayout collapsingToolbar = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+        mNavigationToolbar = (Toolbar)findViewById(R.id.toolbar);
         mContentContainer = (FrameLayout)findViewById(R.id.navigation_activity_container);
         mNavigationDrawer = (DrawerLayout)findViewById(R.id.drawer_layout);
         mNavigationView = (NavigationView) findViewById(R.id.nav_view);
+        fab = (FloatingActionButton)findViewById(R.id.fab);
 
+        collapsingToolbar.setTitleEnabled(false);
         setSupportActionBar(mNavigationToolbar);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_menu_black_24dp);
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_menu_white_36pt);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(true);
 
@@ -105,6 +112,24 @@ public abstract class NavigationActivity extends AppCompatActivity{
 
         //Setting the actionbarToggle to drawer layout
         mNavigationDrawer.addDrawerListener(actionBarDrawerToggle);
+
+        /**************************************************************
+         * TESTING TESTING TESTIN TESTING
+        ***************************************************************/
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.design_bottom_sheet);
+        final BottomSheetBehavior behavior = BottomSheetBehavior.from(recyclerView);
+
+
+        fab.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                if(behavior.getState() == BottomSheetBehavior.STATE_COLLAPSED) {
+                    behavior.setState(BottomSheetBehavior.STATE_EXPANDED);
+                } else {
+                    behavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
+                }
+            }
+        });
     }
 
     protected void setupNavigationDrawer() {
@@ -149,6 +174,8 @@ public abstract class NavigationActivity extends AppCompatActivity{
             }
         });
     }
+
+
 
     protected abstract int getContentResourceId();
 

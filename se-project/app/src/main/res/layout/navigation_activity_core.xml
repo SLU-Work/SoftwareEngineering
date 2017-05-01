@@ -4,42 +4,83 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
 
     <!-- This CoordinatorLayout represents the contents of the screen  -->
     <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinator"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:fitsSystemWindows="true"
+        >
 
-        <!-- The ActionBar displayed at the top -->
-        <include
-            android:id="@+id/navigation_toolbar"
-            layout="@layout/navigation_toolbar" />
-
-        <!-- The main content view where fragments are loaded -->
-        <FrameLayout
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@id/navigation_toolbar"
-            android:id="@+id/navigation_activity_container">
-        </FrameLayout>
-
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fab"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom|right"
-            app:fabSize="normal"
-            app:layout_behavior="com.slu.se_project.main.ScrollAwareFABBehavior"
-            app:layout_anchor="@+id/navigation_activity_container"
-            app:layout_anchorGravity="bottom|right|end"
-            android:layout_margin="32dp"
-            android:clickable="true"
-            android:visibility="gone"
-            app:backgroundTint="@color/nav_drawer_header_bg"
-            app:elevation="6dp"
-            />
+            android:fitsSystemWindows="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:id="@+id/collapsing_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:contentScrim="@color/dark_purple"
+                android:fitsSystemWindows="true"
+                app:layout_scrollFlags="scroll|enterAlways">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:title="@string/app_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/dark_purple"
+                    android:paddingTop="20dp"
+                    android:paddingStart="6dp"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:layout_collapseMode="pin"/>
+
+            </android.support.design.widget.CollapsingToolbarLayout>
+        </android.support.design.widget.AppBarLayout>
+
+        <!-- The ActionBar displayed at the top
+            <include
+                android:id="@+id/navigation_toolbar"
+                layout="@layout/navigation_toolbar" />
+-->
+            <!-- The main content view where fragments are loaded -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/collapsing_toolbar"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/navigation_activity_container">
+            </FrameLayout>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                app:fabSize="normal"
+                app:layout_anchor="@+id/navigation_activity_container"
+                app:layout_anchorGravity="bottom|right|end"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:layout_margin="32dp"
+                android:clickable="true"
+                android:visibility="gone"
+                app:backgroundTint="@color/dark_green"
+                app:elevation="12dp"
+                />
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/design_bottom_sheet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_behavior="@string/bottom_sheet_behavior"/>
+
+
+
     </android.support.design.widget.CoordinatorLayout>
 
     <!-- The navigation drawer that comes from the left -->

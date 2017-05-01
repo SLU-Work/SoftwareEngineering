@@ -18,12 +18,14 @@ public class card_data {
     private String label;
     private List<card_data> events;
     private int events_size = 0;
+    private List<String> expandables;
 
 
     public card_data(int year, int month, int day){
         this.date = Calendar.getInstance();
         date.set(year,month,day);
         events = new ArrayList<>();
+        expandables = new ArrayList<>();
     }
 
     public void setImg(int url){
@@ -89,6 +91,11 @@ public class card_data {
             return null;
         }
     }
+
+    public void addExpandable(String e ){expandables.add(e);
+    }
+    public List<String> getExpandables(){return expandables;}
+
     public boolean hasEvents(){
         if(events_size >0){
             return true;

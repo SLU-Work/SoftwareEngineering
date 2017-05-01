@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PlanIt</string>
+    <string name="app_name">PlanIT</string>
     <string name="app_version">v1</string>
 
     <!--Backendless-->
@@ -56,6 +56,8 @@
     <string name="login_prompt">Let\'s login and get started!</string>
     <string name="welcome">Welcome to PlanIT!</string>
     <string name="desc_overflow_button">User Profile settings</string>
+    <string name="search">search</string>
+    <string name="search_hint">search</string>
 
 
 </resources>

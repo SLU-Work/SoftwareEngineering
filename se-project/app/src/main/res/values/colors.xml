@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryDark">#4a148c</color>
     <color name="colorAccent">#FF4081</color>
     <color name="spinner_black">#182825</color>
 
@@ -12,13 +12,15 @@
     <color name="BLUE">#0000FF</color>
     <color name="bg_std">#FAFAFA</color>
 
-    <color name="date_background">#4a148c</color>
+    <color name="date_background">#836fa9</color>
     <color name="card_background">#e0e0eb</color>
 
 <!-- Navigation Package -->
     <!--navigation_toolbar.xml-->
-    <!-- Blue-->
+    <!-- Blue-
     <color name="nav_toolbar">#7953d2</color>
+    -->
+    <color name="nav_toolbar">#e6ceff</color>
     <!-- navigation_drawer_header.xml-->
     <color name="nav_drawer_header_bg">#4a148c</color>
     <!-- White-->
@@ -26,6 +28,17 @@
     <!--navigation_activity_core.xml-->
     <color name="nav_view_bg">#f5f5f5</color>
     <color name="card_date_color">#FFFFFF</color>
+
+    <color name="fab_color">#00b686</color>
+
+    <color name="purple">#b39ddb</color>
+    <color name="light_purple">#e6ceff</color>
+    <color name="dark_purple">#836fa9</color>
+
+    <color name="green">#80cbc4</color>
+    <color name="light_green">#b2fef7</color>
+    <color name="dark_green">#4f9a94</color>
+
 <!-- End Navigation Package -->
 
 <!-- Login Package -->

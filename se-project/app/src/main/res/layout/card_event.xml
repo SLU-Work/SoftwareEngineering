@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_event"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/cardview_default_elevation">
 
         <View
             android:id="@+id/divider"
             android:layout_width="match_parent"
-            android:layout_below="@+id/month"
             android:layout_height="1dp"
             android:background="@android:color/darker_gray"
             />
@@ -14,53 +15,69 @@
             android:id="@+id/time"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/activity_vertical_margin"
-            android:textSize="24sp"
-            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingTop="14dp"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
             android:layout_below="@id/divider"
             />
         <TextView
             android:id="@+id/label"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/time"
-            android:layout_toStartOf="@+id/icon"
-            android:layout_marginStart="@dimen/activity_vertical_margin"
-            android:layout_alignParentStart="true"
+            android:layout_below="@+id/divider"
+            android:layout_marginEnd="100dp"
+            android:padding="16dp"
+            android:layout_toRightOf="@+id/time"
+            android:maxLines="2"
             android:textSize="14sp"
-
+            android:ellipsize="end"
             />
         <ImageView
             android:id="@+id/icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/activity_vertical_margin"
             android:layout_below="@+id/divider"
+            android:padding="1dp"
             android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
             />
-        <TextView
-            android:id="@+id/action1"
-            android:layout_width="wrap_content"
+
+        <LinearLayout
+            android:id="@+id/expanded_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@id/label"
-            android:layout_margin="8dp"
-            android:textColor="@color/BLACK"
-            android:textStyle="bold"
-            android:textSize="14sp"
-            android:clickable="true"
-            android:text="Expand"
-            />
+            android:orientation="vertical"
+            android:layout_below="@+id/label"
+            android:layout_marginEnd="116dp"
+            android:paddingLeft="16dp"
+            android:visibility="gone"
+            >
+
+
+        </LinearLayout>
+
+       <ImageButton
+           android:id="@+id/expand"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentBottom="true"
+           android:padding="16dp"
+           android:background="@drawable/ic_expand_more_36pt"
+           android:textColor="@color/dark_green"
+           android:textSize="20sp"
+           android:clickable="true"
+           />
         <TextView
             android:id="@+id/action2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@+id/action1"
-            android:layout_below="@id/label"
-            android:layout_margin="8dp"
-            android:textColor="@color/BLACK"
-            android:textStyle="bold"
-            android:textSize="14sp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/expand"
+            android:padding="16dp"
+            android:textColor="@color/dark_green"
+            android:textSize="20sp"
             android:clickable="true"
             android:text="Func"
             />

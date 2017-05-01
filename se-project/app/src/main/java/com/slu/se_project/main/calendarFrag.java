@@ -41,7 +41,7 @@ public class calendarFrag extends Fragment {
 
 
         FloatingActionButton fab = (FloatingActionButton)getActivity().findViewById(R.id.fab);
-        fab.setImageDrawable(ContextCompat.getDrawable(getContext(),R.drawable.ic_action_add_white));
+        fab.setImageDrawable(ContextCompat.getDrawable(getContext(),R.drawable.ic_add_white_48dp));
         fab.setVisibility(View.VISIBLE);
 
         RecyclerView rv = (RecyclerView)v.findViewById(R.id.rv);
@@ -53,9 +53,11 @@ public class calendarFrag extends Fragment {
 
         data.add(new card_data(2017,4,23));
         data.get(0).addEvent("Baseball Game", 19, 50, R.drawable.baseball100);
-        data.get(0).addEvent("Some Project that's going to crush me", 12, 50, R.drawable.default_icon);
+        data.get(0).addEvent("Some Project that's going to crush me blah blah blah blah", 12, 50, R.drawable.default_icon);
         data.get(0).addEvent("Pre-game at the bar", 17, 50, R.drawable.cheers100);
 
+        data.get(0).getEvent(0).addExpandable("Testing 1");
+        data.get(0).getEvent(0).addExpandable("Testing 2");
         data.add(new card_data(2017,4,25));
         data.get(1).addEvent("Hiking", 14, 50, R.drawable.hiking100);
 

@@ -11,6 +11,7 @@
     android:clickable="true"
     android:stateListAnimator="@animator/lift_on_touch"
     android:background="@color/card_background"
+    android:elevation="@dimen/cardview_default_elevation"
     card_view:cardCornerRadius="4dp">
 
 
@@ -27,8 +28,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_margin="@dimen/activity_vertical_margin"
-            android:textColor="@color/date_background"
+            android:padding="@dimen/activity_vertical_margin"
+            android:background="@color/date_background"
+            android:textColor="@color/green"
             android:textStyle="bold"
             android:textSize="24sp"
             />

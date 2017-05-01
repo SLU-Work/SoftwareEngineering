@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_more_vert_white_36pt.png",
+        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\ic_more_vert_white_36pt.png"
+    },
+    {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_bottom_line.xml",
         "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\edittext_bottom_line.xml"
     },
@@ -16,16 +20,16 @@
         "source": "C:\\Users\\Sean\\.android\\build-cache\\7fd37b12bcfd977bf4381d3131f4d1667875547c\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\Sean\\.android\\build-cache\\7fd37b12bcfd977bf4381d3131f4d1667875547c\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_search_black_24dp.png",
+        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\ic_search_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
         "source": "C:\\Users\\Sean\\.android\\build-cache\\7fd37b12bcfd977bf4381d3131f4d1667875547c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_expand.png",
-        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\ic_action_expand.png"
+        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Sean\\.android\\build-cache\\7fd37b12bcfd977bf4381d3131f4d1667875547c\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
@@ -38,6 +42,10 @@
     {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_profile_48px.png",
         "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\icon_profile_48px.png"
+    },
+    {
+        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_search_white_24dp.png",
+        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\ic_search_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_star_white_36pt_2x.png",
@@ -68,16 +76,24 @@
         "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\ic_action_tags.png"
     },
     {
-        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_search_48px.png",
-        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\icon_search_48px.png"
-    },
-    {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
         "source": "C:\\Users\\Sean\\.android\\build-cache\\7fd37b12bcfd977bf4381d3131f4d1667875547c\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
+        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_search_48px.png",
+        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\icon_search_48px.png"
+    },
+    {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corner.xml",
         "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\rounded_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_add_36pt_2x.png",
+        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\ic_add_36pt_2x.png"
+    },
+    {
+        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand_more_36pt.png",
+        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\ic_expand_more_36pt.png"
     },
     {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
@@ -98,6 +114,10 @@
     {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
         "source": "C:\\Users\\Sean\\.android\\build-cache\\0833ad08cb1f2e08a56dba641f72001baa84b080\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand_less_36pt.png",
+        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\ic_expand_less_36pt.png"
     },
     {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
@@ -160,6 +180,10 @@
         "source": "C:\\Users\\Sean\\.android\\build-cache\\7fd37b12bcfd977bf4381d3131f4d1667875547c\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
+        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_cancel_white_36pt.png",
+        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\ic_cancel_white_36pt.png"
+    },
+    {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
         "source": "C:\\Users\\Sean\\.android\\build-cache\\7fd37b12bcfd977bf4381d3131f4d1667875547c\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
@@ -182,6 +206,10 @@
     {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
         "source": "C:\\Users\\Sean\\.android\\build-cache\\7fd37b12bcfd977bf4381d3131f4d1667875547c\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_white_24dp.png",
+        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\ic_menu_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
@@ -224,6 +252,10 @@
         "source": "C:\\Users\\Sean\\.android\\build-cache\\7fd37b12bcfd977bf4381d3131f4d1667875547c\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
+        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_white_36pt.png",
+        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\ic_menu_white_36pt.png"
+    },
+    {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_keyboard_arrow_down_black_36dp.png",
         "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\ic_keyboard_arrow_down_black_36dp.png"
     },
@@ -254,6 +286,10 @@
     {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hiking100.jpg",
         "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\hiking100.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_add_white_48dp.png",
+        "source": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\src\\main\\res\\drawable\\ic_add_white_48dp.png"
     },
     {
         "merged": "C:\\Users\\Sean\\AndroidStudioProjects\\PlanIT\\SoftwareEngineering\\se-project\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",

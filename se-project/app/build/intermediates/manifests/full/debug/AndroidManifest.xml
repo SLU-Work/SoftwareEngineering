@@ -31,6 +31,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
         </activity>
         <activity
             android:name="com.slu.se_project.userProfile.UserProfileActivity"
@@ -49,7 +53,12 @@
         <activity
             android:name="com.slu.se_project.search.SearchActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-            android:screenOrientation="portrait" />
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.slu.se_project.settings.SettingsActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
